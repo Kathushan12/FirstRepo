@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Student result checker
 class MarksChecker {
     public static void main(String args[])
     {
@@ -17,4 +17,19 @@ class MarksChecker {
         else
             System.out.println("Grade: F");
     }
+}
+
+//nested for loops 
+
+class star{
+    public static void main(String args[]){
+    for (int i=1;i<=3;i++)
+    {
+        for(int j=1;j<=i;j++)
+        {
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+}
 }
