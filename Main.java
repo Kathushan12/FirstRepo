@@ -1,7 +1,6 @@
 import java.util.Scanner;
 //Student result checker
 class MarksChecker {
-    public static void main(String args[])
     {
         System.out.println("Enter the marks of the student: ");
         Scanner sc = new Scanner(System.in);
@@ -21,8 +20,7 @@ class MarksChecker {
 
 //nested for loops 
 
-class star{
-    public static void main(String args[]){
+class star{{
     for (int i=1;i<=3;i++)
     {
         for(int j=1;j<=i;j++)
